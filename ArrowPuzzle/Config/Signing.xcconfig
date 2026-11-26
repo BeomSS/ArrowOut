@@ -1,0 +1,4 @@
+// Base signing configuration (safe to commit to a public repository).
+// For local signing, copy Config/LocalSigning.xcconfig.example to
+// Config/LocalSigning.xcconfig (git-ignored) and set your Apple Team ID.
+#include? "LocalSigning.xcconfig"

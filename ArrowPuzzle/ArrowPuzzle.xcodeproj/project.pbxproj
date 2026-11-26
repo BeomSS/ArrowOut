@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		AA0000010000000000000006 /* ArrowPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrowPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000010000000000000011 /* ArrowPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrowPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000010000000000000020 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Signing.xcconfig; path = Config/Signing.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -55,6 +56,7 @@
 		AA0000010000000000000002 = {
 			isa = PBXGroup;
 			children = (
+				AA0000010000000000000020 /* Signing.xcconfig */,
 				AA0000010000000000000003 /* ArrowPuzzle */,
 				AA0000010000000000000012 /* ArrowPuzzleTests */,
 				AA0000010000000000000004 /* Products */,
@@ -203,12 +205,12 @@
 /* Begin XCBuildConfiguration section */
 		AA000001000000000000000B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0000010000000000000020 /* Signing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TQW95U5HLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Arrow Out";
@@ -236,12 +238,12 @@
 		};
 		AA000001000000000000000C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0000010000000000000020 /* Signing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TQW95U5HLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Arrow Out";
@@ -306,11 +308,11 @@
 		};
 		AA0000010000000000000019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0000010000000000000020 /* Signing.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TQW95U5HLU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -325,11 +327,11 @@
 		};
 		AA000001000000000000001A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0000010000000000000020 /* Signing.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TQW95U5HLU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
